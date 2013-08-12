@@ -25,7 +25,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch:
     file: lib/Dist/Zilla/Plugin/Travis/ConfigForReleaseBranch.pm
-    version: 0.000_01
+    version: 0.001
 requires:
   Dist::Zilla::Plugin::InlineFiles: 0
   Moose: 0
@@ -34,7 +34,7 @@ requires:
 resources:
   bugtracker: https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues
   repository: git://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch.git
-version: 0.000_01
+version: 0.001
 x_Dist_Zilla:
   perl:
     version: 5.018000

@@ -3,9 +3,9 @@ NAME
     .travis.yml suitable for built branches
 
 VERSION
-    This document describes version 0.000_01 of
+    This document describes version 0.001 of
     Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released August
-    11, 2013 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
+    12, 2013 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
 
 SYNOPSIS
         ; in your dist.ini
