@@ -28,7 +28,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch:
     file: lib/Dist/Zilla/Plugin/Travis/ConfigForReleaseBranch.pm
-    version: '0.003'
+    version: '0.004'
 requires:
   Dist::Zilla::Plugin::InlineFiles: '0'
   Moose: '0'
@@ -38,7 +38,7 @@ resources:
   bugtracker: https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues
   homepage: https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch
   repository: https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch.git
-version: '0.003'
+version: '0.004'
 x_Dist_Zilla:
   perl:
     version: '5.020001'
@@ -392,7 +392,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: '1'
-          tag: '0.003'
+          tag: '0.004'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local
@@ -655,6 +655,6 @@ x_Dist_Zilla:
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
-      is_trial: '1'
+      is_trial: ''
     version: '5.035'
 x_authority: cpan:RSRCHBOY

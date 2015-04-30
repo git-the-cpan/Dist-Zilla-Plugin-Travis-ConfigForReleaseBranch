@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.002-3-gfdfd95f
-$Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch::VERSION = '0.003'; # TRIAL
+# git description: 0.003-0-g3ea55af
+$Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch::VERSION = '0.004';
 
 # ABSTRACT: Create a C<.travis.yml> suitable for built branches
 
@@ -36,7 +36,7 @@ Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - Create a C<.travis.yml> su
 
 =head1 VERSION
 
-This document describes version 0.003 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released April 29, 2015 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
+This document describes version 0.004 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released April 29, 2015 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
 
 =head1 SYNOPSIS
 

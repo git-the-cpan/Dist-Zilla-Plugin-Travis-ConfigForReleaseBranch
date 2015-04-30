@@ -63,10 +63,10 @@
    "provides" : {
       "Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch" : {
          "file" : "lib/Dist/Zilla/Plugin/Travis/ConfigForReleaseBranch.pm",
-         "version" : "0.003"
+         "version" : "0.004"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues"
@@ -78,7 +78,7 @@
          "web" : "https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch"
       }
    },
-   "version" : "0.003",
+   "version" : "0.004",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.020001"
@@ -538,7 +538,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : "1",
-                  "tag" : "0.003",
+                  "tag" : "0.004",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -875,7 +875,7 @@
       "zilla" : {
          "class" : "Dist::Zilla::Dist::Builder",
          "config" : {
-            "is_trial" : "1"
+            "is_trial" : ""
          },
          "version" : "5.035"
       }
