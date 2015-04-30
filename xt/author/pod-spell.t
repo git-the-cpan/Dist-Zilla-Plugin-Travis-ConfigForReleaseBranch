@@ -22,6 +22,7 @@ parameterized
 parameterization
 subclasses
 coderef
+Gratipay
 Chris
 Weyl
 cweyl

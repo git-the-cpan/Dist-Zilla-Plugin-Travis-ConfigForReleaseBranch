@@ -14,23 +14,23 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 491d3cf8b519b3a03b859c53bbf5edf79f6fcaf2 .travis.yml
-SHA1 7a3abba9231374fad29691903143eecf42abc135 Changes
+SHA1 007d9eadef38d89600c372861a631e950cadab7e .travis.yml
+SHA1 ae9d261552cb45edad9b9e003fb33fb06e8c5165 Changes
 SHA1 2ae407c2b0ef32edaf34a75d367122b8a2e63e33 LICENSE
-SHA1 f5dbbe715177630caf82ed6129ad355145b5273f MANIFEST
-SHA1 4b973ef374de5e6c7649c77c5246dc838aff9984 META.json
-SHA1 caac8b78d93edbe4115b7fba2ffeb13ac20e1426 META.yml
-SHA1 e87550bf029d2c3d58dcfd9580c402d96e21a40f Makefile.PL
-SHA1 0fd8b09b7859705aef67afc8c2d1a1fc58e50a3c README
-SHA1 4715b635e54d8474e90900fb24ea4bcacfe6290a cpanfile
+SHA1 ed5d970a4c1e4e2cd5b05cb10dfb2b181187cdfc MANIFEST
+SHA1 142cc2d05b13b52363c667aeb7132fa3e5eabf7f META.json
+SHA1 13cf5d8faf16b6ede30b7fbf33724cc935943f34 META.yml
+SHA1 6248cf3a6645eda86a5b42d73b022af76f200304 Makefile.PL
+SHA1 2dcd234e28664df63cf28a9aca82b89bb4464b94 README
+SHA1 2d5bc6796a7047a74e2c80d9d510b257719e487b cpanfile
 SHA1 2171fa98afe936789cb7ca6737018fda17db7290 dist.ini
-SHA1 668d02f3cd0535eaaa44c6803f74df833d5c3b8c lib/Dist/Zilla/Plugin/Travis/ConfigForReleaseBranch.pm
+SHA1 fd099b9292acc969771c426c320a1df38749c784 lib/Dist/Zilla/Plugin/Travis/ConfigForReleaseBranch.pm
 SHA1 c522c3928158e64bd97d34d20cbfe0b5305a7eb2 t/00-check-deps.t
 SHA1 bc2123edbd98778a2f16e2eb1eaca6881df9f9bb t/00-compile.t
-SHA1 ada03b0beda95cd58b4659ef8205b8b7f0568371 t/000-report-versions-tiny.t
-SHA1 472b21c7c79ac700fc44abe493e8bff2b34f291a xt/author/eol.t
-SHA1 33587bfbf0ce138ca6259645bd1b09fc36ecf7ee xt/author/no-tabs.t
-SHA1 79bfc15f92925a7fd93ca760060c153178f408d9 xt/author/pod-spell.t
+SHA1 61c79bc63bc9c438e369ccbf9d616086e3f46cc1 t/000-report-versions-tiny.t
+SHA1 78e2086faede6145ad459cff794cd2efc3119bd1 xt/author/eol.t
+SHA1 d8b5ef8e154f0bd605e0cbbf4f881c570be31b38 xt/author/no-tabs.t
+SHA1 fdcd204e84fb149a8d8736c354c1396f54491934 xt/author/pod-spell.t
 SHA1 a7948d34cfaad400286ea5d5fa6206c4c7e2552c xt/release/consistent-version.t
 SHA1 fdff5036d2d472652ed73aab42bf42be7bb6875b xt/release/has-version.t
 SHA1 79271259d70d6e4fa3086244090da2263519c295 xt/release/minimum-version.t
@@ -41,17 +41,17 @@ SHA1 0db2132e787823e17441bd53c122d2a76f606084 xt/release/pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQIcBAEBAgAGBQJVJ15jAAoJEJ/Rlq0N/NXWI1UP/3Kxu9T4WhWZZ2jtQkoxksRq
-b0+tNNphyS5d7zm/0xeXXc97GduwImDhOJ29upUvdO+QAriaOOs0CZZ3gB0H0Sm8
-RxDv4AFhIZV1SEiXvKSjwnMhzmMvvD+E9SIvG1K7irLfT+aP/H1NxmFWvKOhECvi
-RTaVWL+na40hCBWFK1xP4sPkd5U5l+pYQF29q7nVW9STfQUgicVxiyoVNiX7TsQ/
-6Rrxj4GiGkxWOGxRy3LDpZpQrtcTLBjk1TSBClVlLnjKaTR27uAD2ldoxko+gB/Y
-LOOTowjbV8dnDVCT9S9ou93j4bd6WKG3LH08+44vZrLkyqzBkPVqSkytlUJbuR81
-RmUAv/5vvLdnkD3JAjuUihQYEX6kLbC0dfBXcNXewfHbjxRk6fr0FyZhweVeh32q
-cMw15nG8AR8EsqGGHmwnWght+38kfjJPfGyo7KM41U4vOD9SBppgGfArPIiEBnKz
-wnT4K0oL0ZBhZ+Iu1bVnn20UuV1BRW5Bl1hvsVa9bgqVkMqcE7mJxJiitWhmVN0K
-30gOtiH1CwUbjhR2AqbdXdA2O0qVnkaSxNpMfgeiXunygvu/wrOUO1cX7hpV74Yz
-Xhn+GfntwOpKhpctXkW7BfMOJ4AUum3nILkVHc6YGdsmJCT7el4Up18CJZs4TYpa
-TXSJ32NRUKfazO9jlxLy
-=g53K
+iQIcBAEBAgAGBQJVQaa7AAoJEJ/Rlq0N/NXWFIkP+QHGVnm838UVRicE9x7HX5oc
+Skw+rG+2v22imh2FrtQgyaf5pknQOklDghTazYv1qNB8RaiSwymfSUJ+DMY/3/O/
+SmTxhc8SRuoGXP221swj3nZciTQahNKUiyUBxZXbM5g1MgpSFDt96/Tzuh+S+cVr
+xwLr+SEyDAUhkXkgy3gpmuDhhFkz8i1cgFDvjfcf8lIC58SNj1Ig5NSX9L+4A5pd
+pbLB4ffb2+S7S7dXllPB8//UG2OQJsbl+c7pS1povIetPREZXcBK30eYbh57cxqh
+HZV6nzQWzT3EQ3J3hVzvDuwsKQ04F4zUrBbpXL/RuRdCOsSwMipLAQuCLFPHu+Ie
+Hr2fY94bheBTNoUH/hDNho/m82kdGpL/Dqu7hGju5amuG6/Soz0JtrN2VGGTX6WT
+s/lqhhxkfnPcWFW4gMDbstaxVXiPHBI3g8APG5XxwQOYxNM+9IN1plYXXxLXZXsO
+uBLXXFf7pqPk8L2/uqihuPzw+/898XNZm2LkNEt1mwMx07MLSacTonOGx0eNhnOo
+KHWPu4YEtgRBHvq6n4ihPiENLCZjt2FesDry33t/P4msmsyxwWImUDc+wIBmmrBh
+CPPWt6M2hgWBnvRSBlbK/p9sp7wMSWnn7fVcHXgyJ9eWCNqD0Z9QTE0l+I2QHjbF
+rgsrd7SUbUvoQfMkhqze
+=uw5I
 -----END PGP SIGNATURE-----
